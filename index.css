@@ -1,0 +1,83 @@
+body {
+    min-height: 750px;
+    cursor: crosshair;
+}
+
+.tab-text{
+  font-family: sans-serif;
+  font-size: x-large;
+  padding-top: 10px;
+  padding-left: 50px;
+  letter-spacing: 3px;
+}
+
+.tab-text2{
+  font-family: sans-serif;
+  font-size: x-large;
+  padding-top: 10px;
+  padding-left: 20px;
+  letter-spacing: 3px;
+}
+
+div {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.rainbow-txt {
+  background-image: linear-gradient(to left, #ff0037, #ff006e, #ff00aa, #ff00e1, #e500ff, #ae00ff, #7300ff, #3c00ff, blue, #0037ff, #006eff, #00a6ff, #00e1ff, #00ffe6, #00ffaa, #00ffaa, #00ff73,#00ff3c,#00ff00, #37ff00, #6eff00,#aaff00, #aaff00, #e1ff00, yellow, #ffaa00, #ff7300, #ff3c00, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+div.gif-background > div:first-child{
+    background-image:url('../pictures/cat-best.gif');
+    background-size:25%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    height:100%;
+    width:100%;
+    filter: invert(100%);
+    z-index: -1;
+}
+
+abbr {
+    filter: invert(100%);
+}
+
+div.gif-background > div:first-child > div{
+    filter: invert(100%);
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button1 {
+    background-color: #4CAF50;
+}
+
+.button3 {
+    background-color: #f44336;
+}
+
+.ghost{
+    background-color: transparent;
+    color: transparent;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.Inverted {
+    filter: invert(100%);
+}
